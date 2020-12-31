@@ -10,6 +10,7 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 ANCIENT_OFFICIAL ?= true
 ANCIENT_GAPPS ?= true
+TARGET_USES_BLUR := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := ancient_beryllium
