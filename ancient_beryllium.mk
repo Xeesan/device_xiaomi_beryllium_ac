@@ -6,13 +6,13 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common nad stuff.
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
-NAD_BUILD_TYPE := OFFICIAL
-USE_GAPPS ?= true
+# Inherit some common ancient stuff.
+$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
+ANCIENT_OFFICIAL ?= true
+ANCIENT_GAPPS ?= true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := nad_beryllium
+PRODUCT_NAME := ancient_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Pocophone F1

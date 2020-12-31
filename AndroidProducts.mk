@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_beryllium.mk
+    $(LOCAL_DIR)/ancient_beryllium.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_beryllium-user \
-    nad_beryllium-userdebug \
-    nad_beryllium-eng
+    ancient_beryllium-user \
+    ancient_beryllium-userdebug \
+    ancient_beryllium-eng
